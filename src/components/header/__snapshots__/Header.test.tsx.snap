@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent should render the Header 1`] = `
+<styled.div>
+  <styled.img
+    alt=""
+    src="https://wallpaperaccess.com/full/1261218.jpg"
+  />
+  <styled.h2>
+    Custom Clothes
+  </styled.h2>
+  <styled.h2>
+    We Create. You Choose.
+  </styled.h2>
+  <styled.button
+    id="login-button"
+    onClick={[Function]}
+  >
+    Log in
+  </styled.button>
+</styled.div>
+`;

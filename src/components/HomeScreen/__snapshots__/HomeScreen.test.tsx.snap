@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MyComponent should render the HomeScreen 1`] = `
+<styled.div>
+  <Header
+    setIsLoginMenuOpen={[Function]}
+  />
+</styled.div>
+`;
