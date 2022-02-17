@@ -3,7 +3,9 @@
 exports[`MyComponent should render the HomeScreen 1`] = `
 <styled.div>
   <Header
+    isLoginMenuOpen={false}
     setIsLoginMenuOpen={[Function]}
   />
+  <div />
 </styled.div>
 `;

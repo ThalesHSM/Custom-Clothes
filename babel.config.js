@@ -10,7 +10,12 @@ module.exports = {
       {
         root: ['./'],
         alias: {
-          '@HomeScreen': './src/components/HomeScreen',
+          '@HomeScreen': './src/screens/HomeScreen',
+          '@SignIn': './src/screens/SignIn',
+          '@ClotheScreen': './src/screens/ClotheScreen',
+          '@Components': './src/components',
+          '@Config': './src/config',
+          '@Routes': './src/config/routes',
         },
       },
     ],

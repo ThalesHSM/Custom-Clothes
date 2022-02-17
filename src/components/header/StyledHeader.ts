@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Link } from 'react-router-dom';
 
 export const StyledMainDiv = styled.div`
   display: flex;
@@ -7,8 +8,6 @@ export const StyledMainDiv = styled.div`
   position: relative;
 
   color: white;
-  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
-  font-family: 'Lato', sans-serif;
 `;
 
 export const StyledImage = styled.img`
@@ -16,33 +15,39 @@ export const StyledImage = styled.img`
   height: 400px;
 `;
 
-export const StyledTitle = styled.h2`
-  font-size: 40px;
-
+export const StyledTitleLink = styled(Link)`
+  text-decoration: none;
+  color: white;
   position: absolute;
-  top: 50px;
+  display: flex;
+  flex: 1px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 85px;
+  font-size: 27px;
 `;
 
-export const StyledSubTitle = styled.h2`
-  font-size: 40px;
-
+export const StyledMenu = styled.h3`
   position: absolute;
-  bottom: 80px;
+  top: 17px;
+  left: 60px;
+  letter-spacing: 2px;
 `;
 
 export const StyledLogin = styled.button`
-  width: 100px;
+  width: 80px;
   height: 40px;
   @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
-  backgroundcolor: white;
+  background-color: white;
   border: none;
   border-radius: 8px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   position: absolute;
-  top: 12px;
+  top: 36px;
   right: 30px;
 `;

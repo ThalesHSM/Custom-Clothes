@@ -1,5 +1,6 @@
-import React from 'react';
-import { shallow, mount } from 'enzyme';
+import * as React from 'react';
+import { shallow } from 'enzyme';
+
 import HomeScreen from './HomeScreen';
 
 describe('MyComponent', () => {
@@ -13,4 +14,6 @@ describe('MyComponent', () => {
     expect(component).toMatchSnapshot();
     component.unmount();
   });
+
+  it('should change the state and show login menu', () => {});
 });
